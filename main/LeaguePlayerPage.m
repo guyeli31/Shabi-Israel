@@ -147,7 +147,12 @@ for i = 1:numel(players)
     html = strrep(html,'{{FLAG_CODE}}',flag);
     html = strrep(html,'{{LEAGUE_TITLE}}',params.LeagueTitle);
     html = strrep(html,'{{MATCH_ROWS}}',[rows avgRow]);
-    html = strrep(html,'{{MAIN_FILE}}','../league_summary.html');
+    backHTML = [ ...
+    '<p style="text-align:center; margin-top:15px; font-size:18px;">' ...
+    '<a href="../league_summary.html" style="color:black; text-decoration:none; font-weight:bold;">⬅ Back to League</a>' ...
+    '</p>' ...
+    ];
+    html = strrep(html,'{{BACK_LINK}}',backHTML);
 
     % --- Write file ---
     f = fopen(fullfile(outDir,sprintf('%s.html',p)),'w','n','UTF-8');

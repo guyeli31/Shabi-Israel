@@ -102,6 +102,20 @@ tr:hover { background-color: var(--color-hover); }
 .avgRow.averageRow { bottom: 0px; }      /* שורת AVERAGES */
 .avgRow.gamesRow   { bottom: 0; }         /* שורת Games Played */
 
+.backLink {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.backLink a {
+  color: black;
+  text-decoration: none;
+}
+.backLink a:hover {
+  text-decoration: underline;
+}
+
 /* Unplayed matches */
 .unplayed td {
   color: #888;
