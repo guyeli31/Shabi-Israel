@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>{{LEAGUE_TITLE}} - {{PLAYER_NAME}}</title>
+<link rel="stylesheet" href="../assets/style.css">
+<script src="../assets/sortTable.js"></script>
+</head>
+<body>
+<h1><img class="flagTitle" src="../../../flags/{{FLAG_CODE}}.png"> {{PLAYER_NAME}}</h1>
+<p style="text-align:center; margin-bottom:15px;">
+  <a href="{{MAIN_FILE}}" style="color:black; text-decoration:none;">⬅ Back to League Table</a>
+</p>
+
+<table id="playerTable" data-dir="asc">
+  <thead>
+    <tr>
+      <th onclick="sortPlayerTable(0)">Opponent</th>
+      <th onclick="sortPlayerTable(1)">Score_self</th>
+      <th onclick="sortPlayerTable(2)">Score_opp</th>
+      <th onclick="sortPlayerTable(3)">PR_self</th>
+      <th onclick="sortPlayerTable(4)">PR_opp</th>
+      <th onclick="sortPlayerTable(5)">Luck_self</th>
+      <th onclick="sortPlayerTable(6)">Luck_opp</th>
+      <th onclick="sortPlayerTable(7)">Result</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{MATCH_ROWS}}
+  </tbody>
+</table>
+</body>
+</html>

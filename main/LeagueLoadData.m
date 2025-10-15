@@ -1,0 +1,75 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% LEAGUELOADDATA.M — Final Stable Version
+%% Loads and validates leaguedata.csv for a given league
+%% - Normalizes column names
+%% - Removes header lines, empty or invalid rows
+%% - Returns clean table T with columns:
+%%   {'PlayerA','PR_A','Luck_A','Score_A','PlayerB','PR_B','Luck_B','Score_B'}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+function T = LeagueLoadData(csvPath)
+if ~isfile(csvPath)
+    error('CSV file not found: %s', csvPath);
+end
+
+fprintf('📂 Loading data: %s\n', csvPath);
+
+% ====== Read the CSV ======
+try
+    T = readtable(csvPath, 'VariableNamingRule','preserve');
+catch ME
+    error('Failed to read CSV: %s\n%s', csvPath, ME.message);
+end
+
+% ====== Normalize Column Names ======
+expectedCols = {'PlayerA','PR_A','Luck_A','Score_A','PlayerB','PR_B','Luck_B','Score_B'};
+
+% Case 1: table already has correct columns
+if all(ismember(expectedCols, T.Properties.VariableNames))
+    T = T(:,expectedCols);
+else
+    % Try to handle flexible headers
+    numCols = width(T);
+    if numCols < 8
+        error('Invalid CSV: expected 8 columns, found %d', numCols);
+    end
+
+    % Assign manually
+    T.Properties.VariableNames = expectedCols(1:numCols);
+end
+
+% ====== Remove Header / Empty Rows ======
+isHeader = strcmpi(T.PlayerA,'Player') | strcmpi(T.PlayerA,'');
+isEmptyA = cellfun(@isempty, T.PlayerA);
+isEmptyB = cellfun(@isempty, T.PlayerB);
+T = T(~isHeader & ~isEmptyA & ~isEmptyB, :);
+
+% ====== Convert Strings to Numeric ======
+% Convert PR, Luck, Score to numeric where applicable
+numericVars = {'PR_A','Luck_A','Score_A','PR_B','Luck_B','Score_B'};
+for v = numericVars
+    name = v{1};
+    if iscell(T.(name))
+        T.(name) = str2double(T.(name));
+    end
+end
+
+% Replace NaN in numeric fields with 0
+for v = numericVars
+    name = v{1};
+    T.(name)(isnan(T.(name))) = 0;
+end
+
+% ====== Identify invalid or "Bye" rows ======
+isBye = strcmpi(T.PlayerA,'Bye') | strcmpi(T.PlayerB,'Bye');
+isUnplayed = (T.PR_A==0 & T.Luck_A==0 & T.Score_A==0 & ...
+              T.PR_B==0 & T.Luck_B==0 & T.Score_B==0);
+
+validMask = ~(isBye | isUnplayed);
+playedCount = sum(validMask);
+fprintf('   ✓ Total matches: %d (played: %d, skipped: %d)\n', ...
+    height(T), playedCount, height(T)-playedCount);
+
+% ====== Final Output ======
+fprintf('   ✓ Data loaded successfully.\n');
+end

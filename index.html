@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Shabi Israel</title>
+
+<!-- Fixed relative paths for root-level index -->
+<link rel="stylesheet" href="assets/style.css">
+<script src="assets/sortTable.js"></script>
+
+<style>
+.landing-container {
+  text-align: center;
+  margin-top: 60px;
+}
+.subtitle {
+  font-family: "Georgia", serif;
+  font-style: italic;
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 20px;
+}
+.logo-container img {
+  height: 80px;
+  margin-bottom: 40px;
+  border-radius: 10px;
+}
+table.landing {
+  border-collapse: collapse;
+  margin: auto;
+  font-size: 18px;
+  min-width: 520px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px 20px;
+  text-align: center;
+}
+th {
+  background-color: #B7DEE8;
+  color: #003366;
+}
+tr:nth-child(even) { background-color: #f9f9f9; }
+tr:hover { background-color: #f1f1f1; }
+a { color: black; text-decoration: none; }
+a:hover { text-decoration: underline; }
+</style>
+</head>
+
+<body>
+<div class="landing-container">
+  <h1>Shabi Israel</h1>
+  <p class="subtitle">By Marcel Dana and Avshalom Yaish</p>
+
+  <!-- Logo now relative to project root -->
+  <div class="logo-container">
+    <img src="logo/logo.png" alt="League Logo">
+  </div>
+
+  <!-- Table of leagues -->
+  <table class="landing">
+    <thead>
+      <tr>
+        <th>League</th>
+        <th>Status</th>
+        <th>Leader</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td><a href="output\Shabi Israel October 2025\league_summary.html">Shabi Israel - October 2025</a></td><td><span style="color:green;font-weight:bold;">Running</span></td><td><img class="flag" src="flags/IL.png"> Aviado</td></tr>
+<tr><td><a href="output\Shabi Israel September 2025\league_summary.html">Shabi Israel - September 2025</a></td><td><span style="color:#CC0000;font-weight:bold;">Completed</span></td><td><img class="flag" src="flags/IL.png"> Aviado</td></tr>
+
+    </tbody>
+  </table>
+</div>
+</body>
+</html>

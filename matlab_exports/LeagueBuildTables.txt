@@ -1,0 +1,56 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% LEAGUE_BUILDTABLES — Restored & Synced
+%% Adds played match stats + flag sync
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+function [Tsum, meta] = LeagueBuildTables(Stats, params)
+
+%% ========== BUILD TABLE ==========
+names = fieldnames(Stats);
+N = numel(names);
+Tsum = table('Size',[N 11], ...
+    'VariableTypes',{'double','string','double','double','double','double','double','double','double','double','double'}, ...
+    'VariableNames',{'Rank','Player','Games','Wins','Losses','WinRate','MeanPR','HighestPR','LowestPR','OppMeanPR','Luck'});
+
+flagCodes = cell(N,1);
+for i = 1:N
+    p = names{i};
+    row = Stats.(p);
+    if isfield(params.CustomFlags, p)
+        flagCode = params.CustomFlags.(p);
+    else
+        flagCode = 'IL';
+    end
+
+    Tsum.Player(i)     = string(p);
+    Tsum.Games(i)      = row.Games;
+    Tsum.Wins(i)       = row.Wins;
+    Tsum.Losses(i)     = row.Losses;
+    Tsum.WinRate(i)    = row.WinRate;
+    Tsum.MeanPR(i)     = row.MeanPR;
+    Tsum.HighestPR(i)  = row.HighestPR;
+    Tsum.LowestPR(i)   = row.LowestPR;
+    Tsum.OppMeanPR(i)  = row.OppMeanPR;
+    Tsum.Luck(i)       = row.Luck;
+    flagCodes{i} = flagCode;
+end
+
+%% ========== SORT TABLE ==========
+[Tsum, sortIdx] = sortrows(Tsum, {'WinRate','MeanPR'}, {'descend','ascend'});
+Tsum.Rank = (1:height(Tsum))';
+flagCodesSorted = flagCodes(sortIdx);
+
+%% ========== GLOBAL STATS ==========
+playedMatches = sum(Tsum.Games)/2;  % each game counted twice
+totalMatches = nchoosek(N,2);       % total possible pairings
+playedRatio = playedMatches / totalMatches;
+
+%% ========== META STRUCT ==========
+meta.FlagCodesSorted = flagCodesSorted;
+meta.TotalPlayers = N;
+meta.TimeStamp = datestr(now,'yyyy-mm-dd HH:MM');
+meta.BronzeCount = params.BronzeCount;
+meta.playedMatches = round(playedMatches);
+meta.totalMatches = totalMatches;
+meta.playedRatio = playedRatio;
+meta.MeanValues = varfun(@mean, Tsum(:,3:end));
+end
