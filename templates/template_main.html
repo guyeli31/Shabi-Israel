@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>{{LEAGUE_TITLE}}</title>
+<link rel="stylesheet" href="assets/style.css">
+<script src="assets/sortTable.js"></script>
+</head>
+<body>
+<h1>{{LEAGUE_TITLE}}</h1>
+<p style="text-align:center; font-size:14px; color:#555;">Last updated: {{UPDATED_TIME}}</p>
+
+{{BACK_LINK}}
+
+<table id="leagueTable" data-dir="desc">
+  <thead>
+    <tr>
+      <th onclick="sortTable(0)">Rank</th>
+      <th onclick="sortTable(1)">Player</th>
+      <th onclick="sortTable(2)">Games</th>
+      <th onclick="sortTable(3)">Wins</th>
+      <th onclick="sortTable(4)">Losses</th>
+      <th onclick="sortTable(5)">WinRate</th>
+      <th onclick="sortTable(6)">MeanPR</th>
+      <th onclick="sortTable(7)">Level</th>
+      <th onclick="sortTable(8)">Luck</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{TABLE_BODY}}
+  </tbody>
+</table>
+</body>
+</html>
