@@ -90,15 +90,17 @@ tr:hover { background-color: var(--color-hover); }
   border-radius: 3px;
 }
 
-/* Sticky bottom rows (averages + stats) */
+/* Sticky summary rows */
 .avgRow {
   background-color: var(--color-avg-row) !important;
   color: #000;
   font-weight: bold;
   position: sticky;
-  bottom: 0;
   z-index: 1;
 }
+
+.avgRow.averageRow { bottom: 0px; }      /* שורת AVERAGES */
+.avgRow.gamesRow   { bottom: 0; }         /* שורת Games Played */
 
 /* Unplayed matches */
 .unplayed td {

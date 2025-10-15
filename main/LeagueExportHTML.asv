@@ -137,7 +137,7 @@ for i = 1:height(Tsum)
 end
 
 %% ===== Averages and Stats rows =====
-avgRow = '<tr class="avgRow averageRow"><td colspan="2"><b>AVERAGES</b></td>';
+avgRow = '<tr class="avgRow"><td colspan="2"><b>AVERAGES</b></td>';
 for f = 3:width(Tsum)
     col = Tsum.Properties.VariableNames{f};
     if strcmp(col,'Level')
@@ -161,7 +161,7 @@ avgRow = [avgRow '</tr>'];
 playedMatches = meta.playedMatches;
 totalMatches = meta.totalMatches;
 playedRatio = meta.playedRatio * 100;
-statRow = sprintf('<tr class="avgRow statRow"><td colspan="9" style="text-align:center;color:#000;">Games Played: %d / %d (%.1f%%)</td></tr>', ...
+statRow = sprintf('<tr class="avgRow"><td colspan="9" style="text-align:center;color:#000;">Games Played: %d / %d (%.1f%%)</td></tr>', ...
     playedMatches, totalMatches, playedRatio);
 
 %% ===== Substitute into template =====
