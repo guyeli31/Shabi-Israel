@@ -116,6 +116,8 @@ for i = 1:numel(leagues)
     if ~exist(dstAssets,'dir'), mkdir(dstAssets); end
     copyfile(fullfile(srcAssets,'style.css'), dstAssets);
     copyfile(fullfile(srcAssets,'sortTable.js'), dstAssets);
+    copyfile(fullfile(srcAssets,'themes.css'), dstAssets);
+    copyfile(fullfile(srcAssets,'themeToggle.js'), dstAssets);
 
     % --- Generate HTML Files ---
     mainFile = LeagueExportHTML(Tsum, params, meta);

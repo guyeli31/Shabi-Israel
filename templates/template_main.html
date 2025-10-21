@@ -3,18 +3,30 @@
 <head>
 <meta charset="UTF-8">
 <title>{{LEAGUE_TITLE}}</title>
+
+<!-- Styles -->
 <link rel="stylesheet" href="assets/style.css">
-<script src="assets/sortTable.js"></script>
+<link rel="stylesheet" href="assets/themes.css">
+
+<!-- Scripts -->
+<script src="assets/sortTable.js" defer></script>
+<script src="assets/themeToggle.js" defer></script>
 </head>
-<body>
-<h1>{{LEAGUE_TITLE}}</h1>
+
+<body class="theme-light">
+
+<header style="display:flex; align-items:center; justify-content:center; gap:15px; margin-bottom:10px;">
+  <h1>{{LEAGUE_TITLE}}</h1>
+  <button id="themeToggle" title="Change Theme">Theme ☀︎</button>
+</header>
+
 <p style="text-align:center; font-size:14px; color:#555;">Last updated: {{UPDATED_TIME}}</p>
 
 {{BACK_LINK}}
 
 <table id="leagueTable" data-dir="desc">
   <thead>
-    <tr>
+    <tr style="background-color: var(--color-header-row);">
       <th onclick="sortTable(0)">Rank</th>
       <th onclick="sortTable(1)">Player</th>
       <th onclick="sortTable(2)">Games</th>
@@ -30,5 +42,6 @@
     {{TABLE_BODY}}
   </tbody>
 </table>
+
 </body>
 </html>
