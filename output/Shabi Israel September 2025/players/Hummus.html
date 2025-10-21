@@ -3,18 +3,32 @@
 <head>
 <meta charset="UTF-8">
 <title>Shabi Israel - September 2025 - Hummus</title>
+
+<!-- Styles -->
 <link rel="stylesheet" href="../assets/style.css">
-<script src="../assets/sortTable.js"></script>
+<link rel="stylesheet" href="../assets/themes.css">
+
+<!-- Scripts -->
+<script src="../assets/sortTable.js" defer></script>
+<script src="../assets/themeToggle.js" defer></script>
 </head>
-<body>
-<h1><img class="flagTitle" src="../../../flags/BE.png"> Hummus</h1>
-<p style="text-align:center; margin-bottom:15px;">
-<p style="text-align:center; margin-top:15px; font-size:18px;"><a href="../league_summary.html" style="color:black; text-decoration:none; font-weight:bold;">⬅ Back to League</a></p>
-</p>
+
+<body class="theme-light">
+
+<header style="display:flex; align-items:center; justify-content:center; gap:15px; margin-bottom:10px;">
+  <h1>
+    <img class="flagTitle" src="../../../flags/BE.png">
+    Hummus
+  </h1>
+  <button id="themeToggle" title="Change Theme">Theme ☀︎</button>
+  </button>
+</header>
+
+<p style="text-align:center; margin-bottom:15px;"><p style="text-align:center; margin-top:15px; font-size:18px;"><a href="../league_summary.html" text-decoration:none; font-weight:bold;">⬅ Back to League</a></p></p>
 
 <table id="playerTable" data-dir="asc">
   <thead>
-    <tr>
+    <tr style="background-color: var(--color-header-row);">
       <th onclick="sortPlayerTable(0)">Opponent</th>
       <th onclick="sortPlayerTable(1)">Score_self</th>
       <th onclick="sortPlayerTable(2)">Score_opp</th>
@@ -29,5 +43,6 @@
     <tr><td class="player"><img class="flag" src="../../../flags/IL.png"> <b><a href="Amiros.html">Amiros</a></b></td><td><b>7</b></td><td>4</td><td><b>3.71</b></td><td>14.59</td><td><b>1.31</b></td><td>1.07</td><td class="result-win">WIN</td></tr><tr><td class="player"><img class="flag" src="../../../flags/IL.png"> <b><a href="Aviado.html">Aviado</a></b></td><td>5</td><td><b>7</b></td><td><b>4.46</b></td><td>4.94</td><td>-0.74</td><td><b>3.74</b></td><td class="result-loss">LOSS</td></tr><tr><td class="player"><img class="flag" src="../../../flags/IL.png"> <b><a href="Avshalom.html">Avshalom</a></b></td><td><b>7</b></td><td>3</td><td><b>5.40</b></td><td>9.63</td><td><b>2.53</b></td><td>0.44</td><td class="result-win">WIN</td></tr><tr><td class="player"><img class="flag" src="../../../flags/IL.png"> <b><a href="Danny_kondrea.html">Danny_kondrea</a></b></td><td><b>7</b></td><td>3</td><td><b>4.81</b></td><td>7.43</td><td><b>1.48</b></td><td>-0.41</td><td class="result-win">WIN</td></tr><tr><td class="player"><img class="flag" src="../../../flags/IL.png"> <b><a href="Efi.html">Efi</a></b></td><td><b>7</b></td><td>4</td><td><b>6.20</b></td><td>15.00</td><td>-1.48</td><td><b>-0.95</b></td><td class="result-win">WIN</td></tr><tr><td class="player"><img class="flag" src="../../../flags/IL.png"> <b><a href="GuyEliyahu.html">GuyEliyahu</a></b></td><td>4</td><td><b>7</b></td><td>4.88</td><td><b>1.94</b></td><td><b>0.61</b></td><td>0.01</td><td class="result-loss">LOSS</td></tr><tr><td class="player"><img class="flag" src="../../../flags/IL.png"> <b><a href="Idan1986.html">Idan1986</a></b></td><td><b>7</b></td><td>5</td><td><b>6.18</b></td><td>11.38</td><td>-2.52</td><td><b>0.23</b></td><td class="result-win">WIN</td></tr><tr><td class="player"><img class="flag" src="../../../flags/IL.png"> <b><a href="KingArt.html">KingArt</a></b></td><td><b>7</b></td><td>0</td><td><b>3.39</b></td><td>6.74</td><td><b>0.59</b></td><td>-3.07</td><td class="result-win">WIN</td></tr><tr><td class="player"><img class="flag" src="../../../flags/IL.png"> <b><a href="MarcelDana.html">MarcelDana</a></b></td><td><b>7</b></td><td>3</td><td><b>7.24</b></td><td>16.34</td><td><b>-1.26</b></td><td>-1.86</td><td class="result-win">WIN</td></tr><tr><td class="player"><img class="flag" src="../../../flags/TZ.png"> <b><a href="Moriarty.html">Moriarty</a></b></td><td><b>7</b></td><td>3</td><td><b>4.14</b></td><td>6.51</td><td><b>0.04</b></td><td>-0.07</td><td class="result-win">WIN</td></tr><tr><td class="player"><img class="flag" src="../../../flags/IL.png"> <b><a href="Nissimb.html">Nissimb</a></b></td><td><b>7</b></td><td>0</td><td>6.65</td><td><b>3.38</b></td><td><b>2.73</b></td><td>-3.77</td><td class="result-win">WIN</td></tr><tr><td class="player"><img class="flag" src="../../../flags/IL.png"> <b><a href="Ran1976.html">Ran1976</a></b></td><td><b>7</b></td><td>1</td><td>8.49</td><td><b>7.95</b></td><td><b>1.82</b></td><td>-2.95</td><td class="result-win">WIN</td></tr><tr><td class="player"><img class="flag" src="../../../flags/IL.png"> <b><a href="Tezka11.html">Tezka11</a></b></td><td><b>7</b></td><td>6</td><td><b>7.35</b></td><td>9.90</td><td>-2.67</td><td><b>-2.16</b></td><td class="result-win">WIN</td></tr><tr><td class="player"><img class="flag" src="../../../flags/IL.png"> <b><a href="UziMutsafy.html">UziMutsafy</a></b></td><td>4</td><td><b>7</b></td><td><b>6.05</b></td><td>14.67</td><td>1.06</td><td><b>3.98</b></td><td class="result-loss">LOSS</td></tr><tr><td class="player"><img class="flag" src="../../../flags/IL.png"> <b><a href="YEHDUA.html">YEHDUA</a></b></td><td><b>7</b></td><td>5</td><td><b>7.22</b></td><td>9.03</td><td><b>4.80</b></td><td>4.13</td><td class="result-win">WIN</td></tr><tr><td class="player"><img class="flag" src="../../../flags/IL.png"> <b><a href="Ydaniel.html">Ydaniel</a></b></td><td><b>7</b></td><td>4</td><td><b>3.40</b></td><td>7.64</td><td><b>1.07</b></td><td>-0.61</td><td class="result-win">WIN</td></tr><tr><td class="player"><img class="flag" src="../../../flags/IL.png"> <b><a href="bardak65.html">bardak65</a></b></td><td>6</td><td><b>7</b></td><td><b>7.55</b></td><td>15.93</td><td>-6.08</td><td><b>-2.57</b></td><td class="result-loss">LOSS</td></tr><tr><td class="player"><img class="flag" src="../../../flags/IL.png"> <b><a href="fridlich.html">fridlich</a></b></td><td>2</td><td><b>7</b></td><td><b>3.76</b></td><td>8.11</td><td>-2.78</td><td><b>2.18</b></td><td class="result-loss">LOSS</td></tr><tr><td class="player"><img class="flag" src="../../../flags/IL.png"> <b><a href="gidio.html">gidio</a></b></td><td>3</td><td><b>7</b></td><td><b>9.62</b></td><td>16.18</td><td>-4.65</td><td><b>3.73</b></td><td class="result-loss">LOSS</td></tr><tr><td class="player"><img class="flag" src="../../../flags/IL.png"> <b><a href="hmualem.html">hmualem</a></b></td><td>2</td><td><b>7</b></td><td><b>3.41</b></td><td>6.01</td><td>-1.48</td><td><b>1.94</b></td><td class="result-loss">LOSS</td></tr><tr><td class="player"><img class="flag" src="../../../flags/IL.png"> <b><a href="nadavd.html">nadavd</a></b></td><td><b>7</b></td><td>2</td><td><b>5.05</b></td><td>5.86</td><td><b>2.08</b></td><td>1.80</td><td class="result-win">WIN</td></tr><tr><td class="player"><img class="flag" src="../../../flags/IL.png"> <b><a href="pshapiro.html">pshapiro</a></b></td><td>6</td><td><b>7</b></td><td><b>4.87</b></td><td>9.29</td><td>-4.40</td><td><b>-1.06</b></td><td class="result-loss">LOSS</td></tr><tr><td class="player"><img class="flag" src="../../../flags/IL.png"> <b><a href="sasha_er.html">sasha_er</a></b></td><td>4</td><td><b>7</b></td><td><b>8.38</b></td><td>12.45</td><td>-2.97</td><td><b>-0.32</b></td><td class="result-loss">LOSS</td></tr><tr class="avgRow"><td><b>AVERAGES</b></td><td></td><td></td><td><b>5.75</b></td><td><b>9.60</b></td><td><b>-0.47</b></td><td><b>0.15</b></td><td><b>60.87%</b></td></tr>
   </tbody>
 </table>
+
 </body>
 </html>

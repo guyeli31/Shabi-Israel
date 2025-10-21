@@ -1,88 +1,76 @@
 /* ==========================================================
-   LEAGUE TABLE THEME CONFIGURATION — Final Sticky + Level
+   LEAGUE TABLE GLOBAL STYLES — Color-independent version
+   Uses color variables from themes.css
    ========================================================== */
-:root {
-  --color-bg-main: #f4f7fa;
-  --color-text-main: #000000;
-  --color-text-header: #003366;
-  --color-border: #dddddd;
-  --color-hover: #f1f1f1;
-  --color-alt-row: #f9f9f9;
-  --color-avg-row: #d9ead3;
-  --color-gold: #FFD700;
-  --color-silver: #C0C0C0;
-  --color-bronze: #CD7F32;
-}
 
-/*    GLOBAL FONT NORMALIZATION  */
+/* ----------- GLOBAL FONT NORMALIZATION ----------- */
 html, body {
   font-family: Arial, sans-serif !important;
   font-size: 16px !important;
   line-height: 1.3;
-  color: #000000;
+  color: var(--color-text-main);
 }
 
-table, th, td {
-  font-size: 16px !important;
-  font-family: Arial, sans-serif !important;
-}
-
-/* General body */
+/* ----------- GENERAL BODY ----------- */
 body {
-  font-family: Arial, sans-serif;
   background-color: var(--color-bg-main);
   color: var(--color-text-main);
   margin: 20px;
 }
 
-/* Headings */
+/* ----------- HEADINGS ----------- */
 h1 {
   text-align: center;
   color: var(--color-text-header);
   margin-bottom: 5px;
 }
+
 p {
   text-align: center;
   font-size: 14px;
-  color: #555;
+  color: var(--color-text-main);
 }
 
-/* Table layout */
+/* ----------- TABLE LAYOUT ----------- */
 table {
   border-collapse: collapse;
   max-width: 1200px;
   margin: auto;
   font-size: 16px;
 }
+
 th, td {
   border: 1px solid var(--color-border);
   padding: 8px;
   text-align: center;
+  color: var(--color-text-main);
 }
+
 th {
-  background-color: #B7DEE8;
+  background-color: var(--color-header-row);
   cursor: pointer;
   position: sticky;
   top: 0;
   z-index: 2;
 }
 
-/* Alternating and hover */
+/* ----------- ALTERNATING AND HOVER ----------- */
 tr:nth-child(even) { background-color: var(--color-alt-row); }
 tr:hover { background-color: var(--color-hover); }
 
-/* Player cell */
+/* ----------- PLAYER CELL ----------- */
 .player { text-align: left; }
-.player a { color: black; text-decoration: none; }
+.player a { color: var(--color-text-main); text-decoration: none; }
 .player a:hover { text-decoration: none; }
 
-/* Flags */
+/* ----------- FLAGS ----------- */
 .flag {
   height: 18px;
   vertical-align: middle;
   margin-right: 6px;
   border-radius: 3px;
 }
+
 .flagTitle {
   height: 1.6em;
   vertical-align: middle;
@@ -90,55 +78,89 @@ tr:hover { background-color: var(--color-hover); }
   border-radius: 3px;
 }
 
-/* Sticky summary rows */
+/* ----------- STICKY SUMMARY ROWS ----------- */
 .avgRow {
   background-color: var(--color-avg-row) !important;
-  color: #000;
+  color: var(--color-text-main);
   font-weight: bold;
   position: sticky;
   z-index: 1;
 }
 
-.avgRow.averageRow { bottom: 0px; }      /* שורת AVERAGES */
-.avgRow.gamesRow   { bottom: 0; }         /* שורת Games Played */
+.avgRow, .avgRow td {
+  color: var(--color-text-main) !important;
+}
 
+.avgRow.averageRow { bottom: 0px; }     /* Average row */
+.avgRow.gamesRow   { bottom: 0; }       /* Games Played row */
+
+/* ----------- BACK LINK ----------- */
 .backLink {
   text-align: center;
   margin-top: 15px;
   font-size: 18px;
   font-weight: bold;
 }
+
 .backLink a {
-  color: black;
+  color: var(--color-text-main);
   text-decoration: none;
 }
+
 .backLink a:hover {
   text-decoration: underline;
 }
 
-/* Unplayed matches */
+/* ----------- UNPLAYED MATCHES ----------- */
 .unplayed td {
   color: #888;
-  background-color: #eee;
+  background-color: var(--color-bg-table);
 }
 
-/* Results colors */
-.result-win { color: #008000; font-weight: bold; }
+/* ----------- RESULTS COLORS ----------- */
+.result-win  { color: #008000; font-weight: bold; }
 .result-loss { color: #CC0000; font-weight: bold; }
 .result-draw { color: #666666; }
 
-/* Level column */
+/* ----------- LEVEL COLUMN ----------- */
 .levelCell {
   font-weight: normal;
   text-shadow: 0 0 1px rgba(0,0,0,0.25);
 }
 
-/* Links */
-a { color: black; text-decoration: none; }
-a:hover { text-decoration: underline; }
+/* ----------- LINKS ----------- */
+a {
+  color: var(--color-text-main);
+  text-decoration: none;
+}
 
-/* Responsive */
+a:hover {
+  text-decoration: underline;
+}
+
+/* ----------- RESPONSIVE ADJUSTMENTS ----------- */
 @media (max-width: 1268px) {
   table, th, td { font-size: 24px; }
   h1 { font-size: 40px; }
 }
+
+/* ----------- THEME TOGGLE BUTTON ----------- */
+#themeToggle {
+  position: fixed;
+  right: 25px;
+  bottom: 25px;
+  padding: 10px 16px;
+  border-radius: 50px;
+  font-size: 15px;
+  border: 1px solid var(--color-border);
+  background: var(--color-bg-table);
+  color: var(--color-text-main);
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  transition: transform 0.2s ease, background 0.3s ease;
+}
+#themeToggle:hover {
+  transform: scale(1.05);
+  background: var(--color-hover);
+}
+
