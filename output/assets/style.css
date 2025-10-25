@@ -164,3 +164,30 @@ a:hover {
   background: var(--color-hover);
 }
 
+/* ----------- MOBILE OPTIMIZATION ----------- */
+@media (max-width: 768px) {
+  #themeToggle {
+    right: 15px;
+    bottom: 15px;
+    padding: 8px 12px;
+    font-size: 13px;
+    border-radius: 30px;
+  }
+
+  body {
+    margin: 10px;
+  }
+
+  table {
+    font-size: 14px;
+    width: 100%;
+  }
+
+  th, td {
+    padding: 6px;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+}
