@@ -2,32 +2,19 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{{LEAGUE_TITLE}} - {{PLAYER_NAME}}</title>
-
-<!-- Styles -->
 <link rel="stylesheet" href="../assets/style.css">
-<link rel="stylesheet" href="../assets/themes.css">
-
-<!-- Scripts -->
-<script src="../assets/sortTable.js" defer></script>
-<script src="../assets/themeToggle.js" defer></script>
+<script src="../assets/sortTable.js"></script>
 </head>
-
-<body class="theme-light">
-
-<header style="display:flex; align-items:center; justify-content:center; gap:15px; margin-bottom:10px;">
-  <h1>
-    <img class="flagTitle" src="../../../flags/{{FLAG_CODE}}.png">
-    {{PLAYER_NAME}}
-  </h1>
-</header>
-
-<p style="text-align:center; margin-bottom:15px;">{{BACK_LINK}}</p>
+<body>
+<h1><img class="flagTitle" src="../../../flags/{{FLAG_CODE}}.png"> {{PLAYER_NAME}}</h1>
+<p style="text-align:center; margin-bottom:15px;">
+{{BACK_LINK}}
+</p>
 
 <table id="playerTable" data-dir="asc">
   <thead>
-    <tr style="background-color: var(--color-header-row);">
+    <tr>
       <th onclick="sortPlayerTable(0)">Opponent</th>
       <th onclick="sortPlayerTable(1)">Score_self</th>
       <th onclick="sortPlayerTable(2)">Score_opp</th>
@@ -42,6 +29,5 @@
     {{MATCH_ROWS}}
   </tbody>
 </table>
-
 </body>
 </html>

@@ -2,16 +2,11 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Shabi Israel</title>
 
-<!-- Styles -->
+<!-- Fixed relative paths for root-level index -->
 <link rel="stylesheet" href="assets/style.css">
-<link rel="stylesheet" href="assets/themes.css">
-
-<!-- Scripts -->
-<script src="assets/sortTable.js" defer></script>
-<script src="assets/themeToggle.js" defer></script>
+<script src="assets/sortTable.js"></script>
 
 <style>
 .landing-container {
@@ -38,34 +33,32 @@ table.landing {
   box-shadow: 0 2px 10px rgba(0,0,0,0.1);
 }
 th, td {
-  border: 1px solid var(--color-border);
+  border: 1px solid #ddd;
   padding: 10px 20px;
   text-align: center;
 }
 th {
-  background-color: var(--color-header-row);
-  color: var(--color-text-header);
+  background-color: #B7DEE8;
+  color: #003366;
 }
-tr:nth-child(even) { background-color: var(--color-alt-row); }
-tr:hover { background-color: var(--color-hover); }
-a { color: var(--color-text-main); text-decoration: none; }
+tr:nth-child(even) { background-color: #f9f9f9; }
+tr:hover { background-color: #f1f1f1; }
+a { color: black; text-decoration: none; }
 a:hover { text-decoration: underline; }
 </style>
 </head>
 
-<body class="theme-light">
-
-<header style="display:flex; align-items:center; justify-content:center; gap:15px;">
-  <h1>Shabi Israel</h1>
-</header>
-
+<body>
 <div class="landing-container">
+  <h1>Shabi Israel</h1>
   <p class="subtitle">By Marcel Dana and Avshalom Yaish</p>
 
+  <!-- Logo now relative to project root -->
   <div class="logo-container">
     <img src="logo/logo.png" alt="League Logo">
   </div>
 
+  <!-- Table of leagues -->
   <table class="landing">
     <thead>
       <tr>
@@ -79,6 +72,5 @@ a:hover { text-decoration: underline; }
     </tbody>
   </table>
 </div>
-
 </body>
 </html>
