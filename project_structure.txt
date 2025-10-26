@@ -1,26 +1,19 @@
-Project directory structure generated on Wed 10/15/2025  1:20:52.75
-Root: G:\My Drive\Matlab_Proj\Olds\ShabiLeague\Hir
+Project directory structure generated on Sun 10/26/2025  1:36:33.67
+Root: G:\My Drive\Matlab_Proj\Olds\ShabiLeague\Git\ShabiIsrael
 
 Directory tree:
 ----------------------------------------------------------
 Folder PATH listing for volume Google Drive
 Volume serial number is 1983-1116
 G:.
-|   LeagueMain.m
+|   update_leagues.bat
 |   GenerateFileTree.bat
-|   project_structure.txt
+|   index.html
+|   LeagueMain.m
 |   leagues_order.json
+|   MatlabToTxt.m
+|   project_structure.txt
 |   
-+---main
-|       LeagueParams.m
-|       LeagueComputeStats.m
-|       LeagueBuildTables.m
-|       LeagueExportHTML.m
-|       LeaguePlayerPage.m
-|       LeagueValidate.m
-|       LeagueLandingPage.m
-|       LeagueLoadData.m
-|       
 +---assets
 |       style.css
 |       sortTable.js
@@ -31,63 +24,43 @@ G:.
 |       TZ.png
 |       
 +---leagues
-|   +---Shabi Israel October 2025
+|   +---Shabi Israel September 2025
 |   |       leaguedata.csv
 |   |       league_params.json
 |   |       
-|   \---Shabi Israel September 2025
-|           leaguedata.csv
+|   \---Shabi Israel October 2025
 |           league_params.json
+|           leaguedata.csv
 |           
++---logo
+|       logo.png
+|       
++---main
+|       LeagueParams.m
+|       LeagueComputeStats.m
+|       LeagueBuildTables.m
+|       LeagueExportHTML.m
+|       LeaguePlayerPage.m
+|       LeagueValidate.m
+|       LeagueLandingPage.m
+|       LeagueLoadData.m
+|       LeagueExportHTML.asv
+|       
++---matlab_exports
+|       LeagueMain.txt
+|       MatlabToTxt.txt
+|       LeagueBuildTables.txt
+|       LeagueComputeStats.txt
+|       LeagueExportHTML.txt
+|       LeagueLandingPage.txt
+|       LeagueLoadData.txt
+|       LeagueParams.txt
+|       LeaguePlayerPage.txt
+|       LeagueValidate.txt
+|       
 +---output
 |   |   validation_report.html
-|   |   index.html
 |   |   
-|   +---Shabi Israel October 2025
-|   |   |   league_summary.html
-|   |   |   league_summary_20251014_1715.html
-|   |   |   league_summary_20251014_2045.html
-|   |   |   league_summary_20251014_2047.html
-|   |   |   league_summary_20251014_2051.html
-|   |   |   league_summary_20251014_2102.html
-|   |   |   league_summary_20251014_2104.html
-|   |   |   league_summary_20251014_2105.html
-|   |   |   league_summary_20251014_2242.html
-|   |   |   league_summary_20251014_2243.html
-|   |   |   league_summary_20251014_2244.html
-|   |   |   
-|   |   +---assets
-|   |   |       style.css
-|   |   |       sortTable.js
-|   |   |       
-|   |   \---players
-|   |           YKwin.html
-|   |           fridlich.html
-|   |           YossiEliezer23.html
-|   |           Aviado.html
-|   |           GuyEliyahu.html
-|   |           UziMutsafy.html
-|   |           OMRAD.html
-|   |           Hummus.html
-|   |           dror.html
-|   |           Nissimb.html
-|   |           Avshalom.html
-|   |           Moriarty.html
-|   |           MarcelDana.html
-|   |           Efi.html
-|   |           Bye.html
-|   |           boutsky.html
-|   |           hmualem.html
-|   |           Ran1976.html
-|   |           ynonhagag.html
-|   |           Idan1986.html
-|   |           Amiros.html
-|   |           sasha_er.html
-|   |           Tezka11.html
-|   |           bardak65.html
-|   |           Danny_kondrea.html
-|   |           nadavd.html
-|   |           
 |   +---Shabi Israel September 2025
 |   |   |   league_summary.html
 |   |   |   
@@ -121,16 +94,47 @@ G:.
 |   |           Efi.html
 |   |           sasha_er.html
 |   |           
-|   \---assets
-|           style.css
-|           sortTable.js
-|           
-+---templates
-|       template_main.html
-|       template_player.html
-|       template_index.html
-|       
-\---logo
-        logo.png
+|   +---assets
+|   |       style.css
+|   |       sortTable.js
+|   |       
+|   \---Shabi Israel October 2025
+|       |   league_summary.html
+|       |   
+|       +---assets
+|       |       style.css
+|       |       sortTable.js
+|       |       
+|       \---players
+|               Aviado.html
+|               fridlich.html
+|               YKwin.html
+|               Nissimb.html
+|               Avshalom.html
+|               UziMutsafy.html
+|               dror.html
+|               Hummus.html
+|               hmualem.html
+|               YossiEliezer23.html
+|               ynonhagag.html
+|               boutsky.html
+|               Danny_kondrea.html
+|               Efi.html
+|               OMRAD.html
+|               Moriarty.html
+|               Idan1986.html
+|               GuyEliyahu.html
+|               Amiros.html
+|               MarcelDana.html
+|               Tezka11.html
+|               sasha_er.html
+|               nadavd.html
+|               Ran1976.html
+|               bardak65.html
+|               
+\---templates
+        template_main.html
+        template_player.html
+        template_index.html
         
 
