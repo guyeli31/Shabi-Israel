@@ -5,7 +5,7 @@ bardak65,15.05,-2.82,1,hmualem,17.91,3.03,7
 Ran1976,7.65,-0.37,7,Nissimb,8.75,-2.33,4
 Efi,11.54,-1.45,5,Moriarty,7.91,-0.11,7
 fridlich,4.46,-0.07,3,UziMutsafy,13.22,4.72,7
-GuyEliyahu,0,0,0,Avshalom,0,0,0
+GuyEliyahu,2.36,-1.79,2,Avshalom,5.63,1.87,7
 Aviado,3.22,-0.27,1,Hummus,5.38,1.36,7
 YKwin,5.89,-0.95,5,YossiEliezer23,10.52,0.07,7
 KingArt,9.64,-3.68,2,Yehuda,6.53,0.33,7
@@ -13,7 +13,7 @@ gidio,0,0,0,Masteroy,0,0,0
 HeartGammon,0,0,0,Roni1122,0,0,0
 lur,0,0,7,Bye,0,0,0
 Player, PR, Luck, Score, Player, PR, Luck, Score
-MarcelDana,0,0,0,sasha_er,0,0,0
+MarcelDana,18.21,0.88,7,sasha_er,24.82,-0.15,4
 bardak65,7.3,-3.25,1,Danny_kondrea,10.53,2.13,7
 Ran1976,16.53,0.05,7,Idan1986,115,0.33,0
 Efi,10.24,-0.08,2,hmualem,6.79,4.56,7
@@ -31,13 +31,13 @@ MarcelDana,10.39,-1.57,1,bardak65,8.29,1.91,7
 Ran1976,8.42,-2.62,4,sasha_er,15.27,-0.19,7
 Efi,9.15,-0.48,6,Danny_kondrea,9.38,0.67,7
 fridlich,3.03,2.16,7,Idan1986,11.9,-1.35,2
-GuyEliyahu,0,0,0,hmualem,0,0,0
+GuyEliyahu,5.07,-1.29,0,hmualem,9.8,1.12,7
 Aviado,2.36,1.15,7,Nissimb,3.71,-2.23,1
 YKwin,4.61,-1.3,5,Moriarty,5.43,0.67,7
 KingArt,11.67,0.17,7,UziMutsafy,18.45,-5.07,2
 gidio,11.5,3.25,7,Avshalom,7.54,-0.18,2
 HeartGammon,11.86,-0.52,2,Hummus,4.73,3.06,7
-lur,0,0,0,YossiEliezer23,0,0,0
+lur,7.24,-3.46,2,YossiEliezer23,10.31,1.05,7
 Bye,0,0,7,Yehuda,0,0,0
 Roni1122,5.7,3.47,7,Masteroy,5.17,-0.04,3
 Player, PR, Luck, Score, Player, PR, Luck, Score
@@ -65,7 +65,7 @@ gidio,11.34,2.01,7,hmualem,16.38,-4.05,1
 HeartGammon,15.96,0.29,5,Nissimb,8.47,-0.2,7
 lur,9.21,3.67,7,Moriarty,5.67,-2.43,3
 Bye,0,0,7,UziMutsafy,0,0,0
-Roni1122,0,0,0,Avshalom,0,0,0
+Roni1122,6.18,-2.05,0,Avshalom,7.31,2.29,7
 Masteroy,8.76,2.59,7,Hummus,4.41,-0.5,3
 Yehuda,7.94,-1.2,7,YossiEliezer23,3.74,-1.53,3
 Player, PR, Luck, Score, Player, PR, Luck, Score
@@ -112,7 +112,7 @@ Hummus,0,0,0,Moriarty,0,0,0
 Avshalom,10.18,5.8,7,UziMutsafy,7.98,1.85,4
 Player, PR, Luck, Score, Player, PR, Luck, Score
 MarcelDana,14.97,3.53,7,YKwin,5.58,-0.82,3
-KingArt,0,0,0,Aviado,0,0,0
+KingArt,20.54,3.86,7,Aviado,2.62,0.41,0
 gidio,0,0,0,GuyEliyahu,0,0,0
 HeartGammon,12.33,1.4,7,fridlich,4.45,-0.17,6
 lur,9.89,1.21,3,Efi,15.39,3.12,7
@@ -128,7 +128,7 @@ Player, PR, Luck, Score, Player, PR, Luck, Score
 MarcelDana,9.38,-1.18,6,KingArt,12.54,-0.34,7
 gidio,14.34,3.08,7,YKwin,5.03,-4.28,2
 HeartGammon,12.81,-0.84,2,Aviado,8.54,1.6,7
-lur,0,0,0,GuyEliyahu,0,0,0
+lur,8.65,3.85,7,GuyEliyahu,2.91,-2.55,2
 Bye,0,0,7,fridlich,0,0,0
 Roni1122,6.25,-3.5,1,Efi,8.49,1.96,7
 Masteroy,0,0,0,Ran1976,0,0,0
@@ -172,7 +172,7 @@ Bye,0,0,7,HeartGammon,0,0,0
 Roni1122,0,0,0,gidio,0,0,0
 Masteroy,9.61,2.12,6,KingArt,12.02,1.19,7
 Yehuda,8.15,-0.5,1,YKwin,1.77,2.15,7
-YossiEliezer23,0,0,0,Aviado,0,0,0
+YossiEliezer23,2.03,0.09,5,Aviado,4.18,2.81,7
 Hummus,4.28,3.13,7,GuyEliyahu,9.6,-0.25,0
 Avshalom,8.25,2.58,7,fridlich,2.48,-2.26,2
 UziMutsafy,14.3,3.67,7,Efi,16.32,-1.2,0
@@ -195,7 +195,7 @@ hmualem,9.38,-0.9,2,Ran1976,13.48,3.95,7
 Idan1986,12.64,1.64,7,bardak65,13.67,-0.02,2
 Danny_kondrea,14.11,2.92,5,sasha_er,13.11,1.93,7
 Player, PR, Luck, Score, Player, PR, Luck, Score
-MarcelDana,0,0,0,Roni1122,0,0,0
+MarcelDana,9.94,-1.91,3,Roni1122,8.45,0.26,7
 Masteroy,0,0,7,Bye,0,0,0
 Yehuda,6.26,-1.2,1,lur,2.99,2.89,7
 YossiEliezer23,4.14,-1.68,3,HeartGammon,4.5,2.45,7
@@ -215,8 +215,8 @@ YossiEliezer23,0,0,7,Bye,0,0,0
 Hummus,0,0,0,lur,0,0,0
 Avshalom,0,0,0,HeartGammon,0,0,0
 UziMutsafy,0,0,0,gidio,0,0,0
-Moriarty,0,0,0,KingArt,0,0,0
-Nissimb,0,0,0,YKwin,0,0,0
+Moriarty,6.09,0.68,7,KingArt,14.44,-2.79,1
+Nissimb,6.75,0.23,5,YKwin,4.43,1,7
 hmualem,0,0,0,Aviado,0,0,0
 Idan1986,12.85,-0.27,1,GuyEliyahu,3.84,2.08,7
 Danny_kondrea,0,0,0,fridlich,0,0,0
@@ -307,7 +307,7 @@ GuyEliyahu,0,0,0,HeartGammon,0,0,0
 Aviado,0,0,0,gidio,0,0,0
 YKwin,1.4,2.17,7,KingArt,7.86,-1.47,0
 Player, PR, Luck, Score, Player, PR, Luck, Score
-MarcelDana,0,0,0,Nissimb,0,0,0
+MarcelDana,15.55,-0.29,1,Nissimb,5.64,0.21,7
 hmualem,12.22,-1.21,5,Moriarty,5.82,-1.02,7
 Idan1986,7.05,1.93,4,UziMutsafy,8.62,3.34,7
 Danny_kondrea,0,0,0,Avshalom,0,0,0
@@ -318,7 +318,7 @@ Efi,14.77,1.57,4,Masteroy,8.35,3.61,7
 fridlich,6.46,1.63,7,Roni1122,5.03,-2.95,3
 GuyEliyahu,0,0,7,Bye,0,0,0
 Aviado,5.46,-1.25,7,lur,9.86,-0.85,4
-YKwin,0,0,0,HeartGammon,0,0,0
+YKwin,3.89,2.74,3,HeartGammon,8.04,4.98,7
 KingArt,4.23,0.81,7,gidio,3.95,-0.73,0
 Player, PR, Luck, Score, Player, PR, Luck, Score
 MarcelDana,12.99,4.78,7,hmualem,8.1,2.07,6
