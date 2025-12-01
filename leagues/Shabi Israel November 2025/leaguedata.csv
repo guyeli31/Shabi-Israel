@@ -274,7 +274,7 @@ Idan1986,16.4,-2.38,0,Roni1122,8.47,0.93,7
 Danny_kondrea,0,0,7,Bye,0,0,0
 sasha_er,9.26,1.54,7,lur,6.25,-0.67,4
 bardak65,14.75,-3.26,3,HeartGammon,7.62,-1.29,7
-Ran1976,0,0,0,gidio,0,0,0
+Ran1976,0,0,7,gidio,0,0,0
 Efi,12.65,2.83,7,KingArt,13.93,1.23,6
 fridlich,7.18,-1.4,7,YKwin,9.13,-3.99,2
 GuyEliyahu,4.86,-2.04,5,Aviado,5.84,1.7,7
@@ -304,7 +304,7 @@ Ran1976,8.97,5.84,7,Roni1122,8.01,2.3,4
 Efi,0,0,7,Bye,0,0,0
 fridlich,5.44,0.55,7,lur,9.87,0.9,6
 GuyEliyahu,3.51,0.5,7,HeartGammon,8.38,-0.84,5
-Aviado,0,0,0,gidio,0,0,0
+Aviado,0,0,7,gidio,0,0,0
 YKwin,1.4,2.17,7,KingArt,7.86,-1.47,0
 Player, PR, Luck, Score, Player, PR, Luck, Score
 MarcelDana,15.55,-0.29,1,Nissimb,5.64,0.21,7
@@ -333,7 +333,7 @@ GuyEliyahu,5.67,3.44,7,Masteroy,10.09,2.4,6
 Aviado,6.37,0.71,7,Roni1122,7.25,-6.5,0
 YKwin,0,0,7,Bye,0,0,0
 KingArt,11.82,2.13,7,lur,7.45,-0.21,6
-gidio,0,0,0,HeartGammon,0,0,0
+gidio,15.91,-0.25,7,HeartGammon,8.77,-1.45,6
 Player, PR, Luck, Score, Player, PR, Luck, Score
 MarcelDana,16.3,-2.66,0,Idan1986,9.66,1.83,7
 Danny_kondrea,12.29,3.31,7,hmualem,5.98,-1.64,0
