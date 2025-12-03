@@ -1,7 +1,7 @@
 Player, PR, Luck, Score, Player, PR, Luck, Score
 MarcelDana,0,0,0,Danny_kondrea,0,0,0
 sasha_er,21.37,2.64,7,Idan1986,9.39,-6.05,4
-bardak65,0,0,0,hmualem,0,0,0
+bardak65,13.41,4.76,5,hmualem,9.41,2.79,7
 Ran1976,8.42,-2.4,2,Nissimb,3.3,-0.23,7
 Efi,0,0,0,Moriarty,0,0,0
 fridlich,6.22,2.2,7,UziMutsafy,11.2,-0.17,2
@@ -27,7 +27,7 @@ barak100,0,0,0,lur,0,0,0
 ys,0,0,0,nadavd,0,0,0
 Bye,0,0,7,GS18671,0,0,0
 Player, PR, Luck, Score, Player, PR, Luck, Score
-MarcelDana,0,0,0,bardak65,0,0,0
+MarcelDana,12.67,-1.9,7,bardak65,8.09,-3.44,6
 Ran1976,0,0,0,sasha_er,0,0,0
 Efi,0,0,0,Danny_kondrea,0,0,0
 fridlich,0,0,0,Idan1986,0,0,0
@@ -60,12 +60,12 @@ fridlich,4.51,-0.81,5,Ran1976,13.27,-0.9,7
 GuyEliyahu,0,0,0,bardak65,0,0,0
 Aviado,0,0,0,sasha_er,0,0,0
 KingArt,0,0,0,Danny_kondrea,0,0,0
-HeartGammon,0,0,0,Idan1986,0,0,0
+HeartGammon,6.61,2.52,7,Idan1986,10.37,-1.6,0
 Tezka11,0,0,0,hmualem,0,0,0
 barak100,5.87,2.6,7,Nissimb,7.12,-0.73,2
 ys,0,0,0,Moriarty,0,0,0
 Bye,0,0,7,UziMutsafy,0,0,0
-GS18671,0,0,0,Avshalom,0,0,0
+GS18671,8.09,1.84,7,Avshalom,9.16,-0.82,1
 nadavd,0,0,0,YKwin,0,0,0
 lur,0,0,0,Yehuda,0,0,0
 Player, PR, Luck, Score, Player, PR, Luck, Score
@@ -177,8 +177,8 @@ YKwin,0,0,0,GuyEliyahu,0,0,0
 Avshalom,9.03,1.06,5,fridlich,5.03,0.48,7
 UziMutsafy,0,0,0,Efi,0,0,0
 Moriarty,0,0,0,Ran1976,0,0,0
-Nissimb,0,0,0,bardak65,0,0,0
-hmualem,0,0,0,sasha_er,0,0,0
+Nissimb,10.45,-1.88,7,bardak65,18.65,-1.38,3
+hmualem,7.85,-4.72,1,sasha_er,15.67,0.27,7
 Idan1986,0,0,0,Danny_kondrea,0,0,0
 Player, PR, Luck, Score, Player, PR, Luck, Score
 MarcelDana,0,0,7,Bye,0,0,0
@@ -324,7 +324,7 @@ Player, PR, Luck, Score, Player, PR, Luck, Score
 MarcelDana,0,0,0,hmualem,0,0,0
 Idan1986,0,0,0,Nissimb,0,0,0
 Danny_kondrea,0,0,0,Moriarty,0,0,0
-sasha_er,0,0,0,UziMutsafy,0,0,0
+sasha_er,11.28,0.04,7,UziMutsafy,10.19,-1.71,4
 bardak65,0,0,0,Avshalom,0,0,0
 Ran1976,0,0,0,YKwin,0,0,0
 Efi,0,0,0,Yehuda,0,0,0
@@ -345,6 +345,6 @@ fridlich,0,0,0,YKwin,0,0,0
 GuyEliyahu,0,0,0,Yehuda,0,0,0
 Aviado,0,0,0,lur,0,0,0
 KingArt,0,0,0,nadavd,0,0,0
-HeartGammon,0,0,0,GS18671,0,0,0
+HeartGammon,11.18,2.34,7,GS18671,8.83,-0.08,3
 Tezka11,0,0,7,Bye,0,0,0
 barak100,0,0,0,ys,0,0,0
