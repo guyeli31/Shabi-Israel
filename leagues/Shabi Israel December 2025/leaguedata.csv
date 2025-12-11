@@ -15,7 +15,7 @@ ys,0,0,7,Bye,0,0,0
 Player, PR, Luck, Score, Player, PR, Luck, Score
 MarcelDana,10.53,0.33,7,sasha_er,15.48,0.03,4
 bardak65,0,0,0,Danny_kondrea,0,0,0
-Ran1976,0,0,0,Idan1986,0,0,0
+Ran1976,15.39,-3.14,7,Idan1986,50.2,-3.19,0
 Efi,12.21,3.03,6,hmualem,6.46,3.08,7
 fridlich,4.7,-2.34,2,Nissimb,8.41,3.12,7
 GuyEliyahu,0,0,0,Moriarty,0,0,0
@@ -91,9 +91,9 @@ Tezka11,14.16,2.09,7,bardak65,11.93,-2.03,1
 barak100,13.92,5.83,7,sasha_er,10.8,-1.68,3
 ys,0,0,0,Danny_kondrea,0,0,0
 Bye,0,0,7,Idan1986,0,0,0
-GS18671,0,0,0,hmualem,0,0,0
+GS18671,12.43,-2.2,0,hmualem,11.04,2,7
 nadavd,0,0,0,Nissimb,0,0,0
-lur,0,0,0,Moriarty,0,0,0
+lur,12.17,4.74,7,Moriarty,13.84,3.26,5
 Yehuda,0,0,0,UziMutsafy,0,0,0
 YKwin,0,0,0,Avshalom,0,0,0
 Player, PR, Luck, Score, Player, PR, Luck, Score
@@ -169,7 +169,7 @@ hmualem,7.77,-0.69,1,Idan1986,11.35,2.65,7
 Player, PR, Luck, Score, Player, PR, Luck, Score
 MarcelDana,7.34,-1.78,3,ys,4.15,1.71,7
 Bye,0,0,7,barak100,0,0,0
-GS18671,0,0,0,Tezka11,0,0,0
+GS18671,18.7,-0.88,2,Tezka11,11.41,1.31,7
 nadavd,0,0,0,HeartGammon,0,0,0
 lur,8.71,-0.09,7,KingArt,23.85,0.88,3
 Yehuda,0,0,0,Aviado,0,0,0
@@ -214,7 +214,7 @@ lur,12.68,-2.89,5,GS18671,20.31,1.9,7
 Yehuda,0,0,7,Bye,0,0,0
 YKwin,0,0,0,ys,0,0,0
 Avshalom,0,0,0,barak100,0,0,0
-UziMutsafy,0,0,0,Tezka11,0,0,0
+UziMutsafy,7.9,-0.5,7,Tezka11,27.81,0.94,5
 Moriarty,0,0,0,HeartGammon,0,0,0
 Nissimb,12.5,1.63,7,KingArt,22.96,-1.81,1
 hmualem,0,0,0,Aviado,0,0,0
@@ -244,7 +244,7 @@ UziMutsafy,5.12,-3.05,7,GS18671,11,-1.16,6
 Moriarty,0,0,7,Bye,0,0,0
 Nissimb,0,0,0,ys,0,0,0
 hmualem,0,0,0,barak100,0,0,0
-Idan1986,0,0,0,Tezka11,0,0,0
+Idan1986,10.77,-0.53,4,Tezka11,18.04,2.3,7
 Danny_kondrea,0,0,0,HeartGammon,0,0,0
 sasha_er,18.63,-0.98,7,KingArt,13.98,-2.87,0
 bardak65,18,-2.92,0,Aviado,6.78,2.92,7
@@ -274,7 +274,7 @@ Idan1986,13.39,-1.34,2,GS18671,10.5,1.01,7
 Danny_kondrea,0,0,7,Bye,0,0,0
 sasha_er,0,0,0,ys,0,0,0
 bardak65,11.82,4.44,7,barak100,11.14,-1.66,3
-Ran1976,0,0,0,Tezka11,0,0,0
+Ran1976,20.27,-1.7,3,Tezka11,11.91,-0.72,7
 Efi,18.49,-1.84,7,HeartGammon,8.44,-3.88,5
 fridlich,5.57,-4.2,7,KingArt,10.84,-1.39,6
 GuyEliyahu,0,0,0,Aviado,0,0,0
@@ -289,7 +289,7 @@ sasha_er,0,0,0,GS18671,0,0,0
 bardak65,0,0,7,Bye,0,0,0
 Ran1976,0,0,0,ys,0,0,0
 Efi,12.3,-0.87,4,barak100,5.49,2.51,7
-fridlich,0,0,0,Tezka11,0,0,0
+fridlich,4.75,2.37,6,Tezka11,9.06,3.44,7
 GuyEliyahu,0,0,0,HeartGammon,0,0,0
 Aviado,0,0,0,KingArt,0,0,0
 Player, PR, Luck, Score, Player, PR, Luck, Score
@@ -315,11 +315,11 @@ sasha_er,0,0,0,YKwin,0,0,0
 bardak65,8.79,2.6,7,Yehuda,9.1,-0.89,2
 Ran1976,0,0,0,lur,0,0,0
 Efi,0,0,0,nadavd,0,0,0
-fridlich,0,0,0,GS18671,0,0,0
+fridlich,4.63,-2.27,2,GS18671,15.35,1.17,7
 GuyEliyahu,0,0,7,Bye,0,0,0
 Aviado,0,0,0,ys,0,0,0
 KingArt,13.83,3.44,6,barak100,8.4,3.02,7
-HeartGammon,0,0,0,Tezka11,0,0,0
+HeartGammon,11.31,-1.53,4,Tezka11,14.22,2.46,7
 Player, PR, Luck, Score, Player, PR, Luck, Score
 MarcelDana,13.23,-2.11,1,hmualem,7.23,2.26,7
 Idan1986,12.76,-2.65,1,Nissimb,6.66,1.45,7
@@ -333,7 +333,7 @@ GuyEliyahu,0,0,0,nadavd,0,0,0
 Aviado,0,0,0,GS18671,0,0,0
 KingArt,0,0,7,Bye,0,0,0
 HeartGammon,0,0,0,ys,0,0,0
-Tezka11,0,0,0,barak100,0,0,0
+Tezka11,17.04,1.52,7,barak100,12.36,-0.16,1
 Player, PR, Luck, Score, Player, PR, Luck, Score
 MarcelDana,6.22,1.12,7,Idan1986,11.67,-1.98,6
 Danny_kondrea,6.22,-1.18,0,hmualem,6.99,2.48,7
