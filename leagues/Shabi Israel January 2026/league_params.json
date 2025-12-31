@@ -1,0 +1,16 @@
+{
+  "LeagueTitle": "Shabi Israel - January 2025",
+
+  "BronzeCount": 4,
+
+  "PR": true,
+  "UBC": true,
+
+  "Running": true,
+
+  "CustomFlags": {
+    "Hummus": "BE",
+    "Moriarty": "TZ",
+	"HeartGammon": "RU"
+  }
+}
