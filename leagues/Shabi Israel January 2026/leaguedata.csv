@@ -35,7 +35,7 @@ YKwin,0,0,0,Ran1976,0,0,0
 HeartGammon,0,0,0,Efi,0,0,0
 Tezka11,0,0,0,UziMutsafy,0,0,0
 ys,0,0,0,Avshalom,0,0,0
-Hummus,0,0,0,KingArt,0,0,0
+Hummus,2.99,-1.06,4,KingArt,11.05,2.1,7
 OvedBenZeev,0,0,0,lur,0,0,0
 Aviv,0,0,0,nadavd,0,0,0
 Bye,0,0,7,gidio,0,0,0
@@ -123,7 +123,7 @@ gidio,0,0,0,sasha_er,0,0,0
 nadavd,0,0,0,bardak65,0,0,0
 lur,0,0,0,Ran1976,0,0,0
 KingArt,0,0,0,Efi,0,0,0
-Avshalom,0,0,0,UziMutsafy,0,0,0
+Avshalom,6.81,1.14,7,UziMutsafy,10.03,-3.17,0
 Player, PR, Luck, Score, Player, PR, Luck, Score
 Danny_kondrea,0,0,0,ys,0,0,0
 Hummus,0,0,0,Tezka11,0,0,0
@@ -137,7 +137,7 @@ nadavd,0,0,0,Idan1986,0,0,0
 lur,0,0,0,sasha_er,0,0,0
 KingArt,0,0,0,bardak65,0,0,0
 Avshalom,0,0,0,Ran1976,0,0,0
-UziMutsafy,0,0,0,Efi,0,0,0
+UziMutsafy,7.4,0.31,0,Efi,10.59,6.94,7
 Player, PR, Luck, Score, Player, PR, Luck, Score
 Danny_kondrea,0,0,0,Hummus,0,0,0
 OvedBenZeev,0,0,0,ys,0,0,0
@@ -255,7 +255,7 @@ Danny_kondrea,0,0,0,lur,0,0,0
 KingArt,0,0,0,nadavd,0,0,0
 Avshalom,0,0,0,gidio,0,0,0
 UziMutsafy,12.29,-4.68,2,YossiEliezer23,10.83,0.07,7
-Efi,0,0,0,mirob,0,0,0
+Efi,15.78,3.32,7,mirob,9.79,0.96,6
 Ran1976,0,0,7,Bye,0,0,0
 bardak65,0,0,0,Aviv,0,0,0
 sasha_er,0,0,0,OvedBenZeev,0,0,0
@@ -289,14 +289,14 @@ Idan1986,0,0,0,mirob,0,0,0
 hmualem,0,0,7,Bye,0,0,0
 Nissimb,0,0,0,Aviv,0,0,0
 Moriarty,0,0,0,OvedBenZeev,0,0,0
-GuyEliyahu,0,0,0,Hummus,0,0,0
+GuyEliyahu,2.8,-1.46,7,Hummus,8.72,-2.64,0
 YKwin,0,0,0,ys,0,0,0
 HeartGammon,0,0,0,Tezka11,0,0,0
 Player, PR, Luck, Score, Player, PR, Luck, Score
 Danny_kondrea,0,0,0,UziMutsafy,0,0,0
 Efi,0,0,0,Avshalom,0,0,0
 Ran1976,0,0,0,KingArt,0,0,0
-bardak65,0,0,0,lur,0,0,0
+bardak65,11.52,2.45,4,lur,13.85,8.59,7
 sasha_er,0,0,0,nadavd,0,0,0
 Idan1986,0,0,0,gidio,0,0,0
 hmualem,0,0,0,YossiEliezer23,0,0,0
@@ -315,7 +315,7 @@ Idan1986,0,0,0,lur,0,0,0
 hmualem,0,0,0,nadavd,0,0,0
 Nissimb,0,0,0,gidio,0,0,0
 Moriarty,0,0,0,YossiEliezer23,0,0,0
-GuyEliyahu,0,0,0,mirob,0,0,0
+GuyEliyahu,3.41,1.89,3,mirob,7.49,2.05,7
 YKwin,0,0,7,Bye,0,0,0
 HeartGammon,0,0,0,Aviv,0,0,0
 Tezka11,0,0,0,OvedBenZeev,0,0,0
