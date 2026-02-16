@@ -23,25 +23,25 @@ gidio,15.69,0.5,7,Tezka11,28.23,-0.89,0
 YossiEliezer23,2.76,2.42,7,ys,9.89,-0.96,0
 Aviv,0,0,0,Hummus,0,0,0
 MarcelDana,20.5,-2.75,3,mirob,10.06,-1.96,7
-OvedBenZeev,0,0,0,fridlich,0,0,0
+OvedBenZeev,27.63,-2.53,0,fridlich,11.62,1.56,7
 Emergi,0,0,0,GS18671,0,0,0
 Bye,0,0,7,Rahamimeli,0,0,0
 Player, PR, Luck, Score, Player, PR, Luck, Score
 Danny_kondrea,0,0,0,Nissimb,0,0,0
 Moriarty,4.49,-3.32,1,bardak65,9.98,2.26,7
 GuyEliyahu,5.72,2.35,7,sasha_er,14.39,-0.59,0
-YKwin,0,0,0,hmualem,0,0,0
+YKwin,5.04,0.22,0,hmualem,10.74,3.2,7
 nadavd,18.47,1.89,7,Efi,19.21,-0.37,0
 gidio,0,0,0,UziMutsafy,0,0,0
 YossiEliezer23,3.34,1.36,7,Avshalom,11.82,1.23,5
 Aviv,0,0,0,Tezka11,0,0,0
-MarcelDana,0,0,0,ys,0,0,0
+MarcelDana,22.72,-1.99,1,ys,3.22,0.19,7
 OvedBenZeev,0,0,0,Hummus,0,0,0
 Emergi,3.6,1.83,7,mirob,20.45,-1.96,2
 Bye,0,0,7,fridlich,0,0,0
 Rahamimeli,0,0,0,GS18671,0,0,0
 Player, PR, Luck, Score, Player, PR, Luck, Score
-Danny_kondrea,0,0,0,Moriarty,0,0,0
+Danny_kondrea,17.93,-4.19,0,Moriarty,15.26,2.8,7
 GuyEliyahu,3.29,2.43,7,Nissimb,2.87,0.83,5
 YKwin,10.62,0.12,7,bardak65,17.3,-2.96,4
 nadavd,0,0,0,sasha_er,0,0,0
@@ -123,11 +123,11 @@ fridlich,5.63,-1.18,7,sasha_er,16.57,1.74,5
 mirob,16.45,-3.47,4,hmualem,10.14,-1.11,7
 Hummus,0,0,0,Efi,0,0,0
 ys,7.52,0.09,7,UziMutsafy,9.36,-0.12,5
-Tezka11,0,0,0,Avshalom,0,0,0
+Tezka11,10.48,-0.66,7,Avshalom,5.49,-3.6,2
 Player, PR, Luck, Score, Player, PR, Luck, Score
 Danny_kondrea,0,0,0,Aviv,0,0,0
 MarcelDana,9.55,-2.44,1,YossiEliezer23,3.02,0.83,7
-OvedBenZeev,0,0,0,gidio,0,0,0
+OvedBenZeev,12.5,5.58,7,gidio,12.9,0.65,2
 Emergi,0,0,0,nadavd,0,0,0
 Bye,0,0,7,YKwin,0,0,0
 Rahamimeli,15.74,2.73,7,GuyEliyahu,3.09,0.58,4
@@ -189,7 +189,7 @@ mirob,0,0,0,Aviv,0,0,0
 Hummus,5.03,-0.03,7,YossiEliezer23,4.02,-0.54,5
 ys,4.13,-4.87,7,gidio,20.6,0.62,5
 Tezka11,0,0,0,nadavd,0,0,0
-Avshalom,0,0,0,YKwin,0,0,0
+Avshalom,5.54,0.13,0,YKwin,9.58,1.53,7
 UziMutsafy,5.13,-0.93,7,GuyEliyahu,2.36,-1.87,5
 Efi,0,0,0,Moriarty,0,0,0
 hmualem,0,0,0,Nissimb,0,0,0
@@ -213,7 +213,7 @@ Danny_kondrea,5.88,-2.91,7,GS18671,11.3,-0.69,5
 fridlich,1.43,0.44,7,Rahamimeli,20.29,2.7,3
 mirob,0,0,7,Bye,0,0,0
 Hummus,4.9,0.87,7,Emergi,9.07,-1.55,3
-ys,0,0,0,OvedBenZeev,0,0,0
+ys,2.45,-1.28,7,OvedBenZeev,9.42,-1.71,3
 Tezka11,0,0,0,MarcelDana,0,0,0
 Avshalom,0,0,0,Aviv,0,0,0
 UziMutsafy,6.6,3.65,7,YossiEliezer23,7,1.05,2
@@ -223,12 +223,12 @@ sasha_er,0,0,0,YKwin,0,0,0
 bardak65,11.21,0.27,7,GuyEliyahu,4.84,-6.49,3
 Nissimb,0,0,0,Moriarty,0,0,0
 Player, PR, Luck, Score, Player, PR, Luck, Score
-Danny_kondrea,0,0,0,fridlich,0,0,0
+Danny_kondrea,13.63,0.13,7,fridlich,6.73,-2.35,5
 mirob,10.68,-2.69,0,GS18671,11.52,2.43,7
 Hummus,0,0,0,Rahamimeli,0,0,0
 ys,0,0,7,Bye,0,0,0
 Tezka11,0,0,0,Emergi,0,0,0
-Avshalom,0,0,0,OvedBenZeev,0,0,0
+Avshalom,10.15,2.42,7,OvedBenZeev,14.91,-4.91,0
 UziMutsafy,10.51,3.31,7,MarcelDana,9.56,-1.42,3
 Efi,0,0,0,Aviv,0,0,0
 hmualem,14.19,-4.15,2,YossiEliezer23,8.97,-0.74,7
@@ -272,7 +272,7 @@ UziMutsafy,8.95,-0.01,0,fridlich,3.45,1.8,7
 Efi,0,0,0,GS18671,0,0,0
 hmualem,0,0,0,Rahamimeli,0,0,0
 sasha_er,0,0,7,Bye,0,0,0
-bardak65,0,0,0,Emergi,0,0,0
+bardak65,13.31,1.19,7,Emergi,10.23,0.41,4
 Nissimb,3.16,-4.38,4,OvedBenZeev,13.01,0.45,7
 Moriarty,8.83,-0.76,3,MarcelDana,8.5,2.14,7
 GuyEliyahu,4.25,-0.15,1,Aviv,12.5,2.94,7
@@ -291,7 +291,7 @@ Moriarty,0,0,0,Emergi,0,0,0
 GuyEliyahu,5.61,-1.94,7,OvedBenZeev,12.04,-2.98,4
 YKwin,0,0,0,MarcelDana,0,0,0
 nadavd,6.57,0.4,6,Aviv,5.42,0.19,7
-gidio,0,0,0,YossiEliezer23,0,0,0
+gidio,16.87,-1.44,4,YossiEliezer23,10.87,1.33,7
 Player, PR, Luck, Score, Player, PR, Luck, Score
 Danny_kondrea,0,0,0,Avshalom,0,0,0
 UziMutsafy,4.92,1.41,7,Tezka11,13.14,5.38,6
@@ -323,8 +323,8 @@ Aviv,0,0,0,MarcelDana,0,0,0
 Player, PR, Luck, Score, Player, PR, Luck, Score
 Danny_kondrea,6.84,-2.11,7,Efi,23.3,0.34,5
 hmualem,14.74,1.88,7,UziMutsafy,9.72,-0.74,3
-sasha_er,0,0,0,Avshalom,0,0,0
-bardak65,0,0,0,Tezka11,0,0,0
+sasha_er,13.79,-2.36,2,Avshalom,6.48,1.33,7
+bardak65,16.69,0.49,7,Tezka11,24.42,-0.53,1
 Nissimb,4.61,2.01,7,ys,3.51,-0.63,6
 Moriarty,13.47,3.13,7,Hummus,9,0.82,4
 GuyEliyahu,4.16,1.67,7,mirob,12.88,-1.66,2
