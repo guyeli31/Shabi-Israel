@@ -32,7 +32,7 @@ Moriarty,4.49,-3.32,1,bardak65,9.98,2.26,7
 GuyEliyahu,5.72,2.35,7,sasha_er,14.39,-0.59,0
 YKwin,5.04,0.22,0,hmualem,10.74,3.2,7
 nadavd,18.47,1.89,7,Efi,19.21,-0.37,0
-gidio,0,0,0,UziMutsafy,0,0,0
+gidio,13.29,-1.51,5,UziMutsafy,10.96,-2.17,7
 YossiEliezer23,3.34,1.36,7,Avshalom,11.82,1.23,5
 Aviv,0,0,0,Tezka11,0,0,0
 MarcelDana,22.72,-1.99,1,ys,3.22,0.19,7
@@ -48,7 +48,7 @@ nadavd,0,0,0,sasha_er,0,0,0
 gidio,20.77,-1.86,0,hmualem,8.73,2.45,7
 YossiEliezer23,4.65,-0.66,7,Efi,12.31,-3.86,6
 Aviv,19.3,-1.09,5,UziMutsafy,15.97,0.97,7
-MarcelDana,0,0,0,Avshalom,0,0,0
+MarcelDana,18.15,-4.08,4,Avshalom,7.76,-2.18,7
 OvedBenZeev,0,0,0,Tezka11,0,0,0
 Emergi,5.24,2.01,7,ys,3.09,1.82,5
 Bye,0,0,7,Hummus,0,0,0
@@ -135,7 +135,7 @@ GS18671,24.09,-3.43,4,Moriarty,8.89,-1.59,7
 fridlich,8.57,1.65,6,Nissimb,10.99,0.54,7
 mirob,0,0,0,bardak65,0,0,0
 Hummus,0,0,0,sasha_er,0,0,0
-ys,0,0,0,hmualem,0,0,0
+ys,3.5,0.51,7,hmualem,12.98,1.78,4
 Tezka11,16.3,2.18,4,Efi,7.41,2.03,7
 Avshalom,8.06,-1.49,7,UziMutsafy,8.96,-3.03,1
 Player, PR, Luck, Score, Player, PR, Luck, Score
@@ -176,7 +176,7 @@ mirob,0,0,0,gidio,0,0,0
 Hummus,0,0,0,nadavd,0,0,0
 ys,4.09,2.02,7,YKwin,6.77,-2.45,0
 Tezka11,9.73,2.73,7,GuyEliyahu,1.89,-0.82,2
-Avshalom,0,0,0,Moriarty,0,0,0
+Avshalom,7.11,-0.22,5,Moriarty,4.82,1.67,7
 UziMutsafy,8.53,2.3,7,Nissimb,6.84,-2.06,2
 Efi,11.27,2.36,7,bardak65,9.81,-2.24,4
 hmualem,16.78,1.7,7,sasha_er,15.19,-1.15,3
@@ -230,7 +230,7 @@ ys,0,0,7,Bye,0,0,0
 Tezka11,0,0,0,Emergi,0,0,0
 Avshalom,10.15,2.42,7,OvedBenZeev,14.91,-4.91,0
 UziMutsafy,10.51,3.31,7,MarcelDana,9.56,-1.42,3
-Efi,0,0,0,Aviv,0,0,0
+Efi,17.44,-2.58,3,Aviv,14.14,2.32,7
 hmualem,14.19,-4.15,2,YossiEliezer23,8.97,-0.74,7
 sasha_er,8.14,0.28,4,gidio,9.08,1.19,7
 bardak65,6.8,4.96,7,nadavd,5.17,-0.24,1
@@ -244,7 +244,7 @@ Tezka11,0,0,0,Rahamimeli,0,0,0
 Avshalom,0,0,7,Bye,0,0,0
 UziMutsafy,0,0,0,Emergi,0,0,0
 Efi,0,0,0,OvedBenZeev,0,0,0
-hmualem,0,0,0,MarcelDana,0,0,0
+hmualem,5.68,1.37,7,MarcelDana,10.17,-0.01,3
 sasha_er,0,0,0,Aviv,0,0,0
 bardak65,15.48,-3.43,2,YossiEliezer23,10.03,3.2,7
 Nissimb,0,0,0,gidio,0,0,0
@@ -304,7 +304,7 @@ Moriarty,6.74,0.79,3,Rahamimeli,13.31,6.1,7
 GuyEliyahu,0,0,7,Bye,0,0,0
 YKwin,0,0,0,Emergi,0,0,0
 nadavd,0,0,0,OvedBenZeev,0,0,0
-gidio,0,0,0,MarcelDana,0,0,0
+gidio,5.69,2.32,7,MarcelDana,7.3,-1.78,0
 YossiEliezer23,6.92,-0.5,5,Aviv,19.05,3.98,7
 Player, PR, Luck, Score, Player, PR, Luck, Score
 Danny_kondrea,8.54,0.91,7,UziMutsafy,15.54,-2.18,0
@@ -343,7 +343,7 @@ Moriarty,0,0,0,Tezka11,0,0,0
 GuyEliyahu,0,0,0,ys,0,0,0
 YKwin,2.52,0.58,5,Hummus,4.04,1.99,7
 nadavd,8.4,0.53,6,mirob,15.56,3,7
-gidio,0,0,0,fridlich,0,0,0
+gidio,11.59,-1.53,6,fridlich,7.12,0.34,7
 YossiEliezer23,8.23,0.98,7,GS18671,12.77,-2.34,3
 Aviv,0,0,0,Rahamimeli,0,0,0
 MarcelDana,0,0,7,Bye,0,0,0
