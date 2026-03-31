@@ -21,7 +21,7 @@ Avshalom,7.11,-2.59,1,gidio,12.24,1.63,7
 Hummus,5.73,1.31,7,nadavd,5.42,-1.67,5
 YossiEliezer23,6.27,-0.5,5,MarcelDana,6.59,1.51,7
 ys,1.49,0.86,3,YKwin,4.8,3.69,7
-OvedBenZeev,0,0,0,ynonhagag,0,0,0
+OvedBenZeev,9.26,-0.8,4,ynonhagag,5.13,0.52,7
 Yannay,10.85,3.12,7,GS18671,14.2,1.14,2
 Phoenix33,12.14,-1.16,3,Aviv,20.29,1.83,7
 TLV100,5.85,-1.27,2,eliyaushmueli,4.78,1.01,7
@@ -47,7 +47,7 @@ Avshalom,10.49,-2.87,5,Idan1986,11.86,-1.22,7
 Hummus,9.79,0.97,7,Moriarty,12.51,-0.8,0
 YossiEliezer23,6.26,-1.53,4,bardak65,9.73,3.27,7
 ys,9.65,4.31,7,Tezka11,12.1,0.4,3
-OvedBenZeev,0,0,0,gidio,0,0,0
+OvedBenZeev,15.28,2.18,7,gidio,19.44,-1.27,2
 Yannay,9.48,-1.42,5,nadavd,5.76,-0.26,7
 Phoenix33,10.46,2.87,7,MarcelDana,11.46,-2.61,3
 TLV100,12.74,2.59,5,YKwin,5.22,2.48,7
@@ -80,7 +80,7 @@ TLV100,8.73,-0.45,3,Tezka11,10.38,0.54,7
 Bye,0,0,7,gidio,0,0,0
 yosseflive,12.09,0.99,7,nadavd,4.82,-3.3,4
 eliyaushmueli,11.32,-0.28,7,MarcelDana,8.19,-1.76,5
-Aviv,0,0,0,YKwin,0,0,0
+Aviv,39.71,-0.5,0,YKwin,5.09,0.55,7
 GS18671,0,0,0,ynonhagag,0,0,0
 Player, PR, Luck, Score, Player, PR, Luck, Score
 Danny_kondrea,4,1.05,7,Hummus,0.28,-0.58,2
@@ -108,7 +108,7 @@ yosseflive,16.46,3.66,7,Moriarty,9,-0.91,1
 eliyaushmueli,7.95,1.61,6,bardak65,6.12,1.59,7
 Aviv,18.75,-0.66,3,Tezka11,20.44,2.09,7
 GS18671,7.66,-0.77,7,gidio,5.67,0.77,6
-ynonhagag,0,0,0,nadavd,0,0,0
+ynonhagag,7.26,-3.24,7,nadavd,4.81,-3.41,6
 YKwin,7.98,-0.41,5,MarcelDana,10.02,-0.05,7
 Player, PR, Luck, Score, Player, PR, Luck, Score
 Danny_kondrea,11.87,1.52,7,ys,10.14,-4.72,5
@@ -147,7 +147,7 @@ yosseflive,20.67,0.6,6,Hummus,7.13,-2.46,7
 eliyaushmueli,9.05,-1.95,4,Avshalom,8.2,0.7,7
 Aviv,14.39,0.56,2,GuyEliyahu,2.64,-0.39,7
 GS18671,14.02,1.96,2,UziMutsafy,16.39,1.44,7
-ynonhagag,0,0,0,Nissimb,0,0,0
+ynonhagag,8.62,2.48,7,Nissimb,6.49,-0.95,5
 YKwin,7.04,1.78,4,Idan1986,11.26,3.12,7
 MarcelDana,10.58,0.59,7,Moriarty,6.48,-6.1,1
 nadavd,4.68,-1.75,6,bardak65,10.7,3.96,7
@@ -238,7 +238,7 @@ Nissimb,7.56,1.98,7,Avshalom,10.17,0.19,5
 UziMutsafy,7.06,-3.13,2,GuyEliyahu,3.01,-0.87,7
 Player, PR, Luck, Score, Player, PR, Luck, Score
 Danny_kondrea,11.48,4.06,7,GS18671,9.56,-1.34,4
-ynonhagag,0,0,0,Aviv,0,0,0
+ynonhagag,6.84,0.6,7,Aviv,17.68,1.26,5
 YKwin,5.87,-2.06,7,eliyaushmueli,14.27,-2.72,6
 MarcelDana,11.85,1.6,7,yosseflive,18.15,-1,2
 nadavd,0,0,7,Bye,0,0,0
@@ -280,7 +280,7 @@ Avshalom,6.72,-1.93,4,ys,3,-0.14,7
 Hummus,3.51,-0.75,6,YossiEliezer23,3.44,-0.16,7
 Player, PR, Luck, Score, Player, PR, Luck, Score
 Danny_kondrea,8.42,0.67,7,MarcelDana,7.26,0.66,6
-nadavd,0,0,0,YKwin,0,0,0
+nadavd,2.91,0.84,4,YKwin,7.22,1.09,7
 gidio,18.38,-2.79,2,ynonhagag,8.55,0.18,7
 Tezka11,18.89,-1.08,7,GS18671,17.61,-2.46,1
 bardak65,9.71,4.6,7,Aviv,14.66,0.7,2
@@ -290,10 +290,10 @@ Nissimb,0,0,7,Bye,0,0,0
 UziMutsafy,10.46,-0.44,5,TLV100,12.27,0.63,7
 GuyEliyahu,5.91,-1.18,7,Phoenix33,8.11,-2.6,4
 Avshalom,5.4,-0.87,7,Yannay,10.41,-2.48,0
-Hummus,0,0,0,OvedBenZeev,0,0,0
+Hummus,8.25,2.76,7,OvedBenZeev,15.99,-0.29,0
 YossiEliezer23,2.7,-1.06,0,ys,2.66,1.77,7
 Player, PR, Luck, Score, Player, PR, Luck, Score
-Danny_kondrea,0,0,0,nadavd,0,0,0
+Danny_kondrea,13.24,-0.36,7,nadavd,4.87,-0.57,5
 gidio,14.39,-1.46,6,MarcelDana,12.22,-1.18,7
 Tezka11,11.56,-1.28,3,YKwin,4.3,1.34,7
 bardak65,9.66,-1.7,1,ynonhagag,8.38,4.36,7
@@ -341,7 +341,7 @@ Idan1986,9.05,3.65,7,gidio,16.84,0.87,2
 Nissimb,8.7,4.13,7,nadavd,8.63,1.82,5
 UziMutsafy,6.22,-4.19,0,MarcelDana,10.13,1.64,7
 GuyEliyahu,3.09,-1.16,2,YKwin,4.43,1.96,7
-Avshalom,0,0,0,ynonhagag,0,0,0
+Avshalom,9.3,-0.78,1,ynonhagag,4.91,1.93,7
 Hummus,0,0,0,GS18671,0,0,0
 YossiEliezer23,7.22,3.5,7,Aviv,9.83,-0.79,2
 ys,3.94,1.35,7,eliyaushmueli,7.2,-1.44,2
