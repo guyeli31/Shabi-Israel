@@ -1,0 +1,14 @@
+{
+  "LeagueTitle": "Shabi Israel - May 2026",
+
+  "BronzeCount": 4,
+
+  "PR": true,
+  "UBC": true,
+
+  "Running": true,
+
+  "CustomFlags": {
+    "Moriarty": "TZ"
+  }
+}
