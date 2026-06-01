@@ -6,9 +6,9 @@
   "PR": true,
   "UBC": true,
 
-  "Running": true,
+  "Running": false,
 
   "CustomFlags": {
-    "Moriarty": "TZ"
+    "Moriarty": "GE"
   }
 }
